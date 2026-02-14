@@ -93,29 +93,29 @@ int main()
     }
     cout << endl;
 
-    // Removing an element from the vector
-    numbers.pop_back();
+    // // Removing an element from the vector
+    // numbers.pop_back();
 
-    // Printing the vector after removal
-    cout << "The vector after pop_back() is: ";
-    for (int i = 0; i < numbers.size(); i++)
-    {
-        cout << numbers[i] << " ";
-    }
-    cout << endl;
-    // Adding elements to the vector
-    for (int i = 1; i <= 10; i++)
-    {
-        numbers.push_back(i * 10);
-        cout << "Added " << i * 10 << " to the vector. Current size: " << numbers.size() << endl;
-    }
+    // // Printing the vector after removal
+    // cout << "The vector after pop_back() is: ";
+    // for (int i = 0; i < numbers.size(); i++)
+    // {
+    //     cout << numbers[i] << " ";
+    // }
+    // cout << endl;
+    // // Adding elements to the vector
+    // for (int i = 1; i <= 10; i++)
+    // {
+    //     numbers.push_back(i * 10);
+    //     cout << "Added " << i * 10 << " to the vector. Current size: " << numbers.size() << endl;
+    // }
 
-    cout << "\nFinal vector contents: ";
-    for (int i = 0; i < numbers.size(); i++)
-    {
-        cout << numbers[i] << " ";
-    }
-    cout << endl;
+    // cout << "\nFinal vector contents: ";
+    // for (int i = 0; i < numbers.size(); i++)
+    // {
+    //     cout << numbers[i] << " ";
+    // }
+    // cout << endl;
 
     return 0;
 }
