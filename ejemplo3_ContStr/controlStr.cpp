@@ -7,84 +7,84 @@ int main()
     int y = 5;
     int num1, num2;
 
-    // // 1. if-else statement
+    // 1. if-else statement
 
-    // // Check if the number is even or odd using if statement
-    // if (x > y)
-    // {
-    //     cout << "x is greater than y." << endl;
-    // }
-    // else if (x < y)
-    // {
-    //     cout << "x is less than y." << endl;
-    // }
-    // else
-    // {
-    //     cout << "x is equal to y." << endl;
-    // }
-    // if (x > 0)
-    // {
-    //     cout << "x is positive." << endl;
-    // }
-    // if (x > 0) cout << "x is positive." << endl;
-    // // Ask user for input
-    // cout << "Enter a number: ";
-    // cin >> num1;
-    // // Check if the number is even or odd using if-else statement
-    // if (num1 % 2 == 0)
-    // {
-    //     cout << "The number " << num1 << " is even." << endl;
-    // }
-    // else
-    // {
-    //     cout << "The number " << num1 << " is odd." << endl;
-    // }
-    // if((x > 0 && y<10&& num1%2==0) || num2>100){
-    //     cout<<"Condition is true"<<endl;
-    // }
+    // Check if the number is even or odd using if statement
+    if (x > y)
+    {
+        cout << "x is greater than y." << endl;
+    }
+    else if (x < y)
+    {
+        cout << "x is less than y." << endl;
+    }
+    else
+    {
+        cout << "x is equal to y." << endl;
+    }
+    if (x > 0)
+    {
+        cout << "x is positive." << endl;
+    }
+    if (x > 0) cout << "x is positive." << endl;
+    // Ask user for input
+    cout << "Enter a number: ";
+    cin >> num1;
+    // Check if the number is even or odd using if-else statement
+    if (num1 % 2 == 0)
+    {
+        cout << "The number " << num1 << " is even." << endl;
+    }
+    else
+    {
+        cout << "The number " << num1 << " is odd." << endl;
+    }
+    if((x > 0 && y<10&& num1%2==0) || num2>100){
+        cout<<"Condition is true"<<endl;
+    }
 
-    // // 2. while loop
-    // cout << "Counting down with while loop:" << endl;
-    // while (x > 0)
-    // {
-    //     cout << "x = " << x << endl;
-    //     x--;
-    // }
-    // // Calculate factorial using a while loop
-    // int i = 1;
-    // int factorial = 1;
-    // while (i <= num1)
-    // {
-    //     factorial *= i;
-    //     i++;
-    // }
-    // cout << "The factorial of " << num1 << " is: " << factorial << endl;
-    // cout << "ingrese un numero" << endl;
-    // cin >> num1;
-    // while (1)
-    // {
-    //     /* code */
-    //     cout << "num1 positive" << endl;
-    //     cin >> num1;
-    //     if (num1 < 0)
-    //     {
-    //         break;
-    //     }
-    // }
+    // 2. while loop
+    cout << "Counting down with while loop:" << endl;
+    while (x > 0)
+    {
+        cout << "x = " << x << endl;
+        x--;
+    }
+    // Calculate factorial using a while loop
+    int i = 1;
+    int factorial = 1;
+    while (i <= num1)
+    {
+        factorial *= i;
+        i++;
+    }
+    cout << "The factorial of " << num1 << " is: " << factorial << endl;
+    cout << "ingrese un numero" << endl;
+    cin >> num1;
+    while (1)
+    {
+        /* code */
+        cout << "num1 positive" << endl;
+        cin >> num1;
+        if (num1 < 0)
+        {
+            break;
+        }
+    }
 
-    // // 3. for loop
-    // cout << "Counting up with for loop:" << endl;
-    // for (int j = 1; j <= 5; j++)
-    // {
-    //     cout << "j = " << j << endl;
-    // }
-    // // Use a for loop to calculate the sum of the first N numbers
-    // int sum = 0;
-    // for (int i = 1; i <= num1; i++)
-    // {
-    //     sum += i; // sum=sum+i
-    // }
-    // cout << "The sum of the first " << num1 << " numbers is: " << sum << endl;
+    // 3. for loop
+    cout << "Counting up with for loop:" << endl;
+    for (int j = 1; j <= 5; j++)
+    {
+        cout << "j = " << j << endl;
+    }
+    // Use a for loop to calculate the sum of the first N numbers
+    int sum = 0;
+    for (int i = 1; i <= num1; i++)
+    {
+        sum += i; // sum=sum+i
+    }
+    cout << "The sum of the first " << num1 << " numbers is: " << sum << endl;
 
     // 4. do-while loop
     cout << "Counting up with do-while loop:" << endl;
